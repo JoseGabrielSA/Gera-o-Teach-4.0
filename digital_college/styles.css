@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px 9px 0;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.topo {
+    height: 25px;
+    background-color: #88008f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.banner {
+    height: 122px;
+    background-color: #963bd5;
+}
+
+main {
+    min-height: 345px;
+    padding: 42px 25px 35px;
+    background-color: #ffffff;
+}
+
+.apresentacao h2,
+.equipe h2 {
+    margin: 0;
+    color: #97009a;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.linha {
+    width: 42px;
+    height: 1px;
+    margin: 8px auto 21px;
+    background-color: #a000a5;
+}
+
+.apresentacao p {
+    margin: 0;
+    font-size: 8px;
+    line-height: 1.45;
+    font-weight: 600;
+}
+
+.equipe {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.equipe .linha {
+    margin-bottom: 17px;
+}
+
+.times {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.time {
+    width: 56px;
+    text-align: center;
+}
+
+.circulo {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 6px;
+    border-radius: 50%;
+    background-color: #963bd5;
+}
+
+.time h3 {
+    margin: 0;
+    color: #97009a;
+    font-size: 10px;
+}
+
+.time p {
+    margin: 2px 0 0;
+    color: #97009a;
+    font-size: 7px;
+    font-weight: 600;
+}
+
+footer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #88008f;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+@media (min-width: 600px) {
+    body {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
+    main {
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+    .apresentacao p {
+        font-size: 13px;
+    }
+
+    .topo h1 {
+        font-size: 13px;
+    }
+
+    .apresentacao h2,
+    .equipe h2 {
+        font-size: 16px;
+    }
+
+    .time {
+        width: 90px;
+    }
+
+    .circulo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .time h3 {
+        font-size: 14px;
+    }
+
+    .time p {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #242424;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section, article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        video, audio {
+            display: block;
+            margin-top: 10px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha Página Web</h1>
+        <h2>Bem-vindo ao meu site!</h2>
+        <p>Um espaço dedicado à tecnologia, programação e desenvolvimento de jogos.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#artigo">Sobre Mim</a></li>
+            <li><a href="#conteudo">Interesses</a></li>
+            <li><a href="#midia">Mídia</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio">
+
+        <article id="artigo">
+            <h2>Sobre Mim</h2>
+            <p>Esta é uma página web desenvolvida utilizando HTML semântico e CSS para organizar e apresentar conteúdos de forma clara e organizada.</p>
+        </article>
+
+        <section id="conteudo">
+            <h3>Meus Interesses</h3>
+            <ul>
+                <li>Programação</li>
+                <li>Desenvolvimento Web</li>
+                <li>Tecnologia</li>
+                <li>Desenvolvimento de Jogos</li>
+            </ul>
+        </section>
+
+        <section id="midia">
+            <h2>Conteúdo Multimídia</h2>
+
+            <h3>Áudio</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+            <h3>Vídeo</h3>
+            <video controls width="600">
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+        </section>
+
+    </main>
+
+</body>
+</html>
